@@ -1,0 +1,26 @@
+{
+  "name": "desafio-automacao-cypress",
+  "version": "1.0.0",
+  "description": "POC de automação com Cypress + TypeScript: API Restful Booker e front-end Sauce Demo",
+  "author": "João Victor de Jesus",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "cypress run",
+    "test:api": "cypress run --spec \"cypress/e2e/api/**/*.cy.ts\"",
+    "test:ui": "cypress run --spec \"cypress/e2e/ui/**/*.cy.ts\"",
+    "test:chrome": "cypress run --browser chrome",
+    "cy:open": "cypress open",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "@types/node": "^20.11.0",
+    "cypress": "^14.0.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "typescript": "^5.4.0"
+  }
+}
