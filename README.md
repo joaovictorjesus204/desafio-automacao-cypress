@@ -1,4 +1,6 @@
-# Desafio de Automação | Cypress + TypeScript
+# Desafio de Automação | Cypress + TypeScript 
+
+[![Testes](https://github.com/joaovictorjesus204/desafio-automacao-cypress/actions/workflows/cypress.yml/badge.svg)](https://github.com/joaovictorjesus204/desafio-automacao-cypress/actions/workflows/cypress.yml)
 
 POC de automação que cobre, no mesmo repositório:
 
